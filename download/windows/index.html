@@ -2,12 +2,19 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Preparing download…</title>
+  <title>Download for Windows</title>
   <meta name="robots" content="noindex,nofollow">
 </head>
 <body>
-  <h3>Preparing your download…</h3>
-  <p>If it doesn’t start, click the button below.</p>
-  <button id="downloadBtn">Download</button>
+  <h3>Download for Windows</h3>
+  <p>Nếu file chưa tải tự động, bấm nút bên dưới.</p>
+
+  <a id="dl" href="./evotophoto_win_v1.zip" download>Download</a>
+
+  <script>
+    setTimeout(() => {
+      document.getElementById('dl').click();
+    }, 800);
+  </script>
 </body>
 </html>
